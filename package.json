@@ -1,0 +1,28 @@
+{
+  "name": "cait-cake",
+  "version": "1.0.0",
+  "description": "wife's cake website",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikegg89/cait-cake.git"
+  },
+  "author": "Micheal Giles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikegg89/cait-cake/issues"
+  },
+  "homepage": "https://github.com/mikegg89/cait-cake#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
