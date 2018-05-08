@@ -5,7 +5,7 @@ USE cake_shop;
 CREATE TABLE subscribers (
   id INT AUTO_INCREMENT PRIMARY KEY,
   email VARCHAR(100) NOT NULL,
-  created_at TIMESTAMP DEFAULT NOW()  
+  created_at TIMESTAMP DEFAULT NOW()
 );
 
 CREATE TABLE customers (
@@ -14,5 +14,6 @@ CREATE TABLE customers (
   last_name VARCHAR(100) NOT NULL,
   email VARCHAR(100) NOT NULL,
   quote VARCHAR(255) NOT NULL,
+  img-url VARCHAR(255),
   created_at TIMESTAMP DEFAULT NOW()
 );
