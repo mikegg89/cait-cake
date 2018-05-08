@@ -1,0 +1,123 @@
+body {
+    background-image: url("birthday-cake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.top {
+  background-color: #FF4081;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+p.top {
+  font-size: 600%;
+  margin-top: 3%;
+}
+
+div.email {
+  margin-top: 50px;
+  /*background: #F50057;
+  text-align: center;
+  color: white;
+  padding-top: 2px;*/
+}
+
+input {
+  background: pink;
+  text-align: center;
+  color: white;
+  border-color: pink;
+  width: 40%;
+  font-size: 16px;
+}
+
+button {
+  background: #F50057;
+  color: white;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+div.tyquote {
+  background-color: #FF80AB;
+  padding: 20px;
+  position: sticky;
+  margin-top: 100px;
+  height: auto;
+  text-align: center;
+}
+
+div.images {
+  background-color: #FF80AB;
+  padding: 20px;
+  position: sticky;
+  margin-top: 100px;
+  height: auto;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    color: white;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.about-me {
+  text-align: center;
+  background-color: #F50057;
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+div.quote {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-bottom: 40px;
+  background: pink;
+}
+
+h1.quote {
+  margin-bottom: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
