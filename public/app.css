@@ -1,5 +1,5 @@
 body {
-    background-image: url("birthday-cake.jpg");
+    background-image: url("cupcake-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -10,12 +10,21 @@ div.top {
   background-color: #FF4081;
   text-align: center;
   color: white;
-  padding: 40px;
+  /*padding: 40px;*/
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 7px;
+
+}
+
+div.down {
+  margin-top: 35%;
 }
 
 p.top {
   font-size: 600%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 div.email {

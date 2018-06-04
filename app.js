@@ -28,11 +28,13 @@ app.post("/", function(req, res) {
   res.render('home');
 });
 
+// app.post("/quote", function(req, res) {
 app.post("/quote", function(req, res) {
   var customer = {
     first_name: req.body.first_name,
     last_name: req.body.last_name,
     email: req.body.email,
+    img_url: req.body.img_url,
     quote: req.body.quote
   }
   connection.connection.query('INSERT INTO customers SET ?', customer, function(error, results) {
