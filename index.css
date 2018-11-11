@@ -7,9 +7,10 @@ body {
     letter-spacing: 2px;
     height: 100%;
     padding: 0px;
+    font-family: cursive;
 }
 
-header {
+.header {
   background-color: hotpink;
   margin: 0;
   padding: 0px;
@@ -25,7 +26,7 @@ header {
   z-index: 1;
 }
 
-header img {
+.header_img {
   width: 40px;
   background: none;
   border-radius: 100px;
@@ -34,11 +35,11 @@ header img {
   top: 40px;
 }
 
-header ul {
+.header_ul {
   list-style: none;
 }
 
-header li {
+.header_li {
   display: inline-block;
 }
 
@@ -56,6 +57,26 @@ header li {
   border: 5px solid purple;
 }
 
+.prices {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid purple;
+  border-radius: 2px;
+}
+
+.prices .words {
+  color: purple;
+  margin-left: 10%;
+}
+
+.alert-note {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
 .contact-me {
   width: 50%;
   margin: 0 auto;
@@ -70,13 +91,13 @@ header li {
   color: lightpink;
 }
 
-.contact-me input, textarea {
+.contact-me_input, .contact-me_textarea {
   font-size: 1em;
   background-color: lightpink;
   color: purple;
 }
 
-.contact-me button {
+.contact-me_btn {
   font-size: 1em;
   background-color: hotpink;
   border-radius: 2px;
@@ -84,13 +105,12 @@ header li {
   color: purple;
 }
 
-.contact-me button:hover {
+.contact-me_btn:hover {
   background-color: pink;
   border: 5px solid hotpink;
 }
 
 .subscribe {
-  font-family: cursive;
   background-color: aqua;
   padding: 15px;
   color: purple;
@@ -101,7 +121,7 @@ header li {
   margin-bottom: 120px;
 }
 
-.subscribe button {
+.subscribe_btn {
   background-color: pink;
   font-size: 1.2em;
   border: 5px solid hotpink;
@@ -110,12 +130,12 @@ header li {
   padding: 5px;
 }
 
-.subscribe button:hover {
+.subscribe_btn:hover {
   background-color: hotpink;
   border: 5px solid pink;
 }
 
-.subscribe input {
+.subscribe_input {
   width: 300px;
   color: aqua;
   margin: 5px;
@@ -128,7 +148,6 @@ footer {
   background: hotpink;
   text-align: center;
   color: purple;
-  font-family: cursive;
   bottom: 0;
   left: 0;
   margin: 0;
@@ -143,8 +162,8 @@ footer {
   margin: 0 auto;
 }
 
-.mySlides {
-  display: none;
+.slider {
+  width: 100%;
 }
 
 .img-slider {
@@ -153,6 +172,6 @@ footer {
   border: 5px solid purple;
 }
 
-.img-slider button {
+.img-slider_btn {
   background-color: rgba(255, 105, 180, 0.4) !important;
 }

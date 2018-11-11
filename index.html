@@ -9,10 +9,10 @@
   </head>
   <body>
     <main>
-      <header>
-        <ul>
-          <li><h1>Sweet Treats by Caitlynn</h1></li>
-          <li><a target=”_blank” href="https://www.facebook.com/groups/2201391740138693/"><img src="./images/fb-icon.png" alt="facebook"></a></li>
+      <header class="header">
+        <ul class="header_ul">
+          <li class="header_li"><h1>Sweet Treats by Caitlynn</h1></li>
+          <li class="header_li"><a target=”_blank” href="https://www.facebook.com/groups/2201391740138693/"><img class="header_img" src="./images/fb-icon.png" alt="facebook"></a></li>
         </ul>
       </header>
 
@@ -31,28 +31,44 @@
           <img class="mySlides" src="./images/pokadot-cake.jpg" style="width:100%">
           <img class="mySlides" src="./images/watermelon-cake.jpg" style="width:100%">
 
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          <button class="w3-button w3-display-left img-slider_btn" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right img-slider_btn" onclick="plusDivs(1)">&#10095;</button>
         </div>
+      </div>
+
+      <div class="prices words">
+        <h2 class="words">Base Cake Pricing</h2>
+        <ul class="words">
+          <li>6" Cake $45-$50</li>
+          <li>8" Cake $55-$60</li>
+          <li>Cupcakes starting at $20</li>
+        </ul>
+        <p class="words">
+          All Cakes include the flavor of your choice, buttercream frosting
+          & basic ising decorations.
+        </p>
+        <p class="alert-note words">
+          *Fondant pricing done on individual basis.
+        </p>
       </div>
 
       <div class="contact-me" id="Contact-me">
         <h1>Request a Quote</h1>
         <form name="contact" netlify>
           <p>
-            <label>Name <input type="text" name="name" /></label>
+            <label>Name <input class="contact-me_input" type="text" name="name" /></label>
           </p>
           <p>
-            <label>Email <input type="email" name="email" /></label>
+            <label>Email <input class="contact-me_input" type="email" name="email" /></label>
           </p>
           <p>
             <label><p>Message</p>
-              <textarea name="message" rows="5" cols="30"></textarea>
+              <textarea class="contact-me_textarea" name="message" rows="5" cols="30"></textarea>
             </label>
           </p>
           <div class="recaptcha" data-netlify-recaptcha></div>
           <p>
-            <button type="submit">Send</button>
+            <button class="contact-me_btn" type="submit">Send</button>
           </p>
         </form>
       </div>
@@ -61,11 +77,11 @@
         <h1>Subscribe for Discounts</h1>
         <form name="subscribe" netlify>
           <h2>
-            <label>Email <input type="email" name="email" /></label>
+            <label>Email <input class="subscribe_input" type="email" name="email" /></label>
           </h2>
 
           <p>
-            <button type="submit">Subscribe!</button>
+            <button class="subscribe_btn" type="submit">Subscribe!</button>
           </p>
         </form>
       </div>
