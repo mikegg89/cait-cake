@@ -22,6 +22,7 @@ header {
   color: purple;
   border-top: 5px solid purple;
   border-bottom: 5px solid purple;
+  z-index: 1;
 }
 
 .about-me {
@@ -123,4 +124,18 @@ footer {
 .recaptcha {
   width: 300px;
   margin: 0 auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.img-slider {
+  width: 40%;
+  margin-top: 50px;
+  border: 5px solid purple;
+}
+
+.img-slider button {
+  background-color: hotpink !important;
 }
