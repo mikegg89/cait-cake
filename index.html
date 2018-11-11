@@ -6,7 +6,63 @@
     <title>Sweet Treats by Caitlynn</title>
   </head>
   <body>
-    <h1>Under Construction!</h1>
+    <main>
+      <header>
+        <h1>Sweet Treats by Caitlynn</h1>
+      </header>
+
+      <div class="about-me">
+        <h1>Hi im Caitlynn!</h1>
+        <p>
+          I love making cakes, I've been doing it for a couple of years now here
+          in the Haslet area.
+        </p>
+      </div>
+
+      <div class="contact-me" id="Contact-me">
+        <h1>Request a Quote</h1>
+        <form name="contact" netlify>
+          <p>
+            <label>Name <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label><p>Message</p>
+              <textarea name="message" rows="5" cols="30"></textarea>
+            </label>
+          </p>
+          <div class="recaptcha" data-netlify-recaptcha></div>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </div>
+
+      <div class="subscribe">
+        <h1>Subscribe for Discounts</h1>
+        <form name="subscribe" netlify>
+          <h2>
+            <label>Email <input type="email" name="email" /></label>
+          </h2>
+          <div class="recaptcha" data-netlify-recaptcha></div>
+          <p>
+            <button type="submit">Subscribe!</button>
+          </p>
+        </form>
+      </div>
+
+      <footer><h3 id='copyright'>sweettreatsbycaitlynn.com</h3></footer>
+
+    </main>
+
+    <!-- javascript files and jquery for bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./js/scrolling-nav.js"></script>
 
   </body>
 </html>
