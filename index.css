@@ -40,7 +40,7 @@ header {
 }
 
 .contact-me {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -74,12 +74,12 @@ header {
 
 .subscribe {
   font-family: cursive;
-  background-color: red;
+  background-color: aqua;
   padding: 15px;
-  color: yellow;
+  color: purple;
   text-align: center;
-  border-top: 4px solid hotpink;
-  border-bottom: 4px solid hotpink;
+  border-top: 4px solid purple;
+  border-bottom: 4px solid purple;
   margin-top: 20px;
   margin-bottom: 120px;
 }
@@ -89,7 +89,7 @@ header {
   font-size: 1.2em;
   border: 5px solid hotpink;
   border-radius: 2px;
-  color: red;
+  color: purple;
   padding: 5px;
 }
 
@@ -100,7 +100,7 @@ header {
 
 .subscribe input {
   width: 300px;
-  color: red;
+  color: aqua;
   margin: 5px;
   border-radius: 2px;
   background-color: lightpink;
@@ -131,7 +131,7 @@ footer {
 }
 
 .img-slider {
-  width: 40%;
+  width: 50%;
   margin-top: 50px;
   border: 5px solid purple;
 }
