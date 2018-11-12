@@ -72,12 +72,18 @@ body {
   font-style: italic;
 }
 
-.contact-me {
+.contact-me-shell {
+  background-image: url("./images/marble-bg.jpg");
   width: 50%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 100%;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 150px;
-  background-color: aqua;
+  background-color: rgba(76, 255, 255,0.8);
   text-align: center;
   padding: 50px;
   font-size: 1.5em;
