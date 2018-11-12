@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: hotpink;
+  background: linear-gradient(hotpink, pink);
   margin: 0;
   padding: 0px;
   top: 0;
@@ -25,13 +25,9 @@ body {
   z-index: 1;
 }
 
-.header_img {
-  width: 40px;
-  background: none;
-  border-radius: 100px;
-  position: fixed;
-  right: 50px;
-  top: 40px;
+.header_img_logo {
+  width: 170px;
+  border-radius: 100%;
 }
 
 .header_ul {
@@ -49,7 +45,7 @@ body {
   font-size: 1.2em;
   text-align: center;
   background-color: lightpink;
-  margin-top: 170px;
+  margin-top: 270px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: purple;
@@ -144,7 +140,7 @@ body {
 }
 
 footer {
-  background: hotpink;
+  background: linear-gradient(pink, hotpink);
   text-align: center;
   color: purple;
   bottom: 0;
@@ -154,6 +150,24 @@ footer {
   position: fixed;
   border-top: 5px solid purple;
   border-bottom: 5px solid purple;
+}
+
+.footer_ul {
+  list-style: none;
+}
+
+.footer_li {
+ display: inline-block;
+ z-index: 1;
+}
+
+.footer_img {
+  width: 40px;
+  background: none;
+  border-radius: 100px;
+  position: fixed;
+  right: 50px;
+  bottom: 25px;
 }
 
 .recaptcha {
