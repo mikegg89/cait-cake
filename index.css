@@ -76,7 +76,7 @@ body {
   width: 50%;
   margin: 0 auto;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   background-color: purple;
   text-align: center;
   padding: 50px;
@@ -105,39 +105,6 @@ body {
   border: 5px solid hotpink;
 }
 
-.subscribe {
-  background-color: aqua;
-  padding: 15px;
-  color: purple;
-  text-align: center;
-  border-top: 4px solid purple;
-  border-bottom: 4px solid purple;
-  margin-top: 20px;
-  margin-bottom: 120px;
-}
-
-.subscribe_btn {
-  background-color: pink;
-  font-size: 1.2em;
-  border: 5px solid hotpink;
-  border-radius: 2px;
-  color: purple;
-  padding: 5px;
-}
-
-.subscribe_btn:hover {
-  background-color: hotpink;
-  border: 5px solid pink;
-}
-
-.subscribe_input {
-  width: 300px;
-  color: aqua;
-  margin: 5px;
-  border-radius: 2px;
-  background-color: lightpink;
-  font-size: 1em;
-}
 
 footer {
   background: linear-gradient(pink, hotpink);
