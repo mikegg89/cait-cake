@@ -16,7 +16,7 @@ body {
   top: 0;
   left: 0;
   font-size: 1.3em;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   text-align: center;
   color: purple;
@@ -53,18 +53,24 @@ body {
 }
 
 .prices {
-  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  /* background-color: white;
   width: 80%;
   margin: auto;
   padding: 20px;
-  margin-top: 50px;
   border: 5px solid purple;
-  border-radius: 2px;
+  border-radius: 2px; */
 }
 
 .prices .words {
   color: purple;
   margin-left: 10%;
+}
+
+.prices_img {
+  width: 100%;
 }
 
 .alert-note {
@@ -120,7 +126,7 @@ footer {
   left: 0;
   margin: 0;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   border-top: 5px solid purple;
   border-bottom: 5px solid purple;
 }
