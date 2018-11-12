@@ -45,7 +45,7 @@ body {
   font-size: 1.2em;
   text-align: center;
   background-color: lightpink;
-  margin-top: 270px;
+  margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: purple;
@@ -88,7 +88,7 @@ body {
   width: 100%;
   margin: 0 auto;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   background-color: rgba(76, 255, 255,0.8);
   text-align: center;
   padding: 50px;
