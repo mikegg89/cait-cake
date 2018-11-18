@@ -83,9 +83,8 @@ p, h1, h2 {
 }
 
 .prices {
-  width: 70%;
+  width: 100%;
   margin: auto;
-  margin-top: 50px;
 }
 
 .prices .words {
@@ -95,6 +94,7 @@ p, h1, h2 {
 
 .prices_img {
   width: 100%;
+  border: 5px solid purple;
 }
 
 .alert-note {
@@ -111,7 +111,6 @@ p, h1, h2 {
 .contact-me {
   width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
   /* margin-bottom: 100px; */
   background-color: rgba(76, 255, 255,0.8);
   text-align: center;
