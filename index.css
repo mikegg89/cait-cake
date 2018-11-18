@@ -4,13 +4,6 @@
 }
 
 body {
-    background-image: url("./images/cupcake-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    letter-spacing: 2px;
-    height: 100%;
     padding: 0px;
 }
 
@@ -72,9 +65,7 @@ p, h1, h2 {
 .img-slider {
   position: relative;
   width: 50%;
-  /* margin-top: 50px; */
   align-items: center;
-  /* border: 5px solid purple; */
 }
 
 .img-slider_btn {
@@ -111,7 +102,6 @@ p, h1, h2 {
 .contact-me {
   width: 100%;
   margin: 0 auto;
-  /* margin-bottom: 100px; */
   background-color: rgba(76, 255, 255,0.8);
   text-align: center;
   padding: 50px;
