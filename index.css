@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     background-image: url("./images/cupcake-bg.jpg");
     background-repeat: no-repeat;
@@ -7,6 +12,35 @@ body {
     letter-spacing: 2px;
     height: 100%;
     padding: 0px;
+}
+
+p, h1, h2 {
+  font-weight: bold !important;
+  font-family: 'Bad Script', cursive !important;
+}
+
+#splash {
+  background-image: url(./images/birthday-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  border: 5px solid purple;
+}
+
+.splash_text{
+  background: rgba(255, 255, 255, 0.65);
+  height: 98.5vh;
+  width: 98.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: purple;
+  line-height: 1.6;
+  font-style: bold;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .header {
@@ -80,7 +114,7 @@ body {
 
 .contact-me-shell {
   background-image: url("./images/marble-bg.jpg");
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -102,7 +136,10 @@ body {
   font-size: 1em;
   background-color: lightpink;
   color: purple;
+  margin: 10px;
+  width: 250px;
 }
+
 
 .contact-me_btn {
   font-size: 1em;
@@ -110,6 +147,7 @@ body {
   border-radius: 2px;
   border: 5px solid pink;
   color: purple;
+  padding: 5px;
 }
 
 .contact-me_btn:hover {
