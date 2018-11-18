@@ -8,6 +8,7 @@ body {
 }
 
 p, h1, h2 {
+  font-size: 2em;
   font-weight: bold !important;
   font-family: 'Bad Script', cursive !important;
 }
@@ -34,9 +35,12 @@ p, h1, h2 {
   font-style: bold;
   padding: 0 40px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
+.logo {
+  width: 20%;
+}
 
 .about-me {
   position: static;
@@ -105,7 +109,7 @@ p, h1, h2 {
   background-color: rgba(76, 255, 255,0.8);
   text-align: center;
   padding: 50px;
-  font-size: 1.5em;
+  font-size: 1em;
   border: 4px solid purple;
   color: purple;
 }
@@ -169,7 +173,7 @@ footer {
   background: none;
   border-radius: 100px;
   position: fixed;
-  right: 50px;
+  right: 25px;
   bottom: 25px;
 }
 
