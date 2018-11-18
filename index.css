@@ -53,6 +53,7 @@ p, h1, h2 {
   justify-content: center;
   align-items: center;
   background-color: purple;
+  border: 5px solid purple;
 }
 
 .about-me_img {
@@ -61,7 +62,7 @@ p, h1, h2 {
 }
 
 .caitlynn-img {
-    border-right: 5px solid purple;
+  border-right: 5px solid purple;
 }
 
 .mySlides {
