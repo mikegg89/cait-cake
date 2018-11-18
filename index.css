@@ -169,16 +169,13 @@ p, h1, h2 {
 
 
 footer {
-  background: linear-gradient(purple, rgba(76, 255, 255,0.8), purple);
+  background: linear-gradient(purple, rgb(76, 255, 255), purple);
   text-align: center;
   color: purple;
   bottom: 0;
   left: 0;
   margin: 0;
   width: 100%;
-  /* position: fixed; */
-  border-top: 5px solid purple;
-  border-bottom: 5px solid purple;
 }
 
 .footer_ul {
