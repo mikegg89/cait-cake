@@ -18,13 +18,13 @@ p, h1, h2 {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
 }
 
 .splash_text{
   background: rgba(255, 255, 255, 0.65);
-  height: 99vh;
-  width: 99vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,7 +50,19 @@ p, h1, h2 {
   justify-content: center;
   align-items: center;
   background-color: purple;
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
+}
+
+.nav-link {
+  /* background-color: rgba(76, 255, 255, 0.5);
+  padding: 0px 0px !important;
+  border: 2px solid purple;
+  border-radius: 15px; */
+  margin-top: 50px;
+}
+
+.arrow-icon {
+  width: 50px;
 }
 
 .about-me_img {
@@ -70,6 +82,7 @@ p, h1, h2 {
   position: relative;
   width: 50%;
   align-items: center;
+  border-right: 5px solid purple;
 }
 
 .img-slider_btn {
@@ -89,7 +102,7 @@ p, h1, h2 {
 
 .prices_img {
   width: 100%;
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
 }
 
 .alert-note {
@@ -110,12 +123,12 @@ p, h1, h2 {
   text-align: center;
   padding: 50px;
   font-size: 1em;
-  border: 4px solid purple;
+  /* border: 4px solid purple; */
   color: purple;
 }
 
 .contact-me_input {
-  font-size: 1em;
+  font-size: .8em;
   color: purple;
   margin: 10px;
   width: 250px;
@@ -125,10 +138,10 @@ p, h1, h2 {
 
 .contact-me_textarea {
   border-radius: 2px;
-  font-size: 1em;
+  font-size: 1em !important;
   color: purple;
   margin: 10px;
-  width: 300px;
+  width: 280px;
   border: 3px solid purple;
 }
 
@@ -138,8 +151,8 @@ p, h1, h2 {
   border-radius: 20px;
   border: 3px solid purple;
   color: purple;
-  padding: 5px 10px;
-  margin: 5px;
+  padding: 3px 10px;
+  margin-top: 15px;
 }
 
 .contact-me_btn:hover {
@@ -150,9 +163,9 @@ p, h1, h2 {
 
 
 footer {
-  background: linear-gradient(purple, rgb(76, 255, 255), purple);
+  background: purple;
   text-align: center;
-  color: purple;
+  color: rgba(76, 255, 255, 0.8);
   bottom: 0;
   left: 0;
   margin: 0;
