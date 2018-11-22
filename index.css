@@ -57,6 +57,25 @@ p, h1, h2 {
 
 .arrow-icon {
   width: 50px;
+  animation: bounce 1.5s infinite alternate;
+ -webkit-animation: bounce 1.5s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
 }
 
 .about-me_img {
