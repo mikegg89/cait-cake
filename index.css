@@ -16,10 +16,15 @@ p, h1, h2 {
 #splash {
   background-image: url(./images/birthday-bg.jpg);
   background-position: center;
-  /* background-size: cover; */
+  background-size: cover;
   height: 100vh;
   background-attachment: fixed;
-  /* border: 5px solid purple; */
+}
+
+@media only screen and (max-width: 600px) {
+    #splash {
+        background-attachment: scroll;
+    }
 }
 
 .splash_text{
