@@ -34,7 +34,7 @@ p, h1, h2 {
   font-style: bold;
   padding: 0 40px;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .logo {
@@ -49,15 +49,10 @@ p, h1, h2 {
   justify-content: center;
   align-items: center;
   background-color: purple;
-  /* border: 5px solid purple; */
 }
 
 .nav-link {
-  /* background-color: rgba(76, 255, 255, 0.5);
-  padding: 0px 0px !important;
-  border: 2px solid purple;
-  border-radius: 15px; */
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .arrow-icon {
@@ -101,7 +96,6 @@ p, h1, h2 {
 
 .prices_img {
   width: 100%;
-  /* border: 5px solid purple; */
 }
 
 .alert-note {
@@ -122,7 +116,6 @@ p, h1, h2 {
   text-align: center;
   padding: 50px;
   font-size: 1em;
-  /* border: 4px solid purple; */
   color: purple;
 }
 
@@ -161,7 +154,7 @@ p, h1, h2 {
 }
 
 
-footer {
+.footer {
   background: purple;
   text-align: center;
   color: rgba(76, 255, 255, 0.8);
@@ -169,6 +162,11 @@ footer {
   left: 0;
   margin: 0;
   width: 100%;
+}
+
+#copyright {
+  font-size: 0.9em;
+  letter-spacing: 1px;
 }
 
 .footer_ul {
