@@ -164,10 +164,13 @@ p, h1, h2 {
   width: 100%;
 }
 
-#copyright {
-  font-size: 0.9em;
-  letter-spacing: 1px;
+@media only screen and (max-width: 425px) {
+  #copyright {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+  }
 }
+
 
 .footer_ul {
   list-style: none;
