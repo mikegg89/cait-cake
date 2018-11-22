@@ -18,13 +18,6 @@ p, h1, h2 {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  background-attachment: fixed;
-}
-
-@media only screen and (max-width: 600px) {
-    #splash {
-        background-attachment: scroll;
-    }
 }
 
 .splash_text{
