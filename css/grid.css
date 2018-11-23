@@ -102,13 +102,23 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 485px) {
+
+  .flyer-label {
+    font-size: 1.4rem !important;
+  }
+
+  .flyer-pricing-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .grid-container {
     height: 850px;
   }
 
   .grid-item {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: normal;
     letter-spacing: 0.2px;
   }
