@@ -51,7 +51,7 @@
 
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
-	to { background-position: 0 100%; }
+	to { background-position: 0 200%; }
 }
 
 .banner {
@@ -62,7 +62,7 @@
   position: relative;
   overflow: hidden;
   background-color: #94065E;
-	animation: animatedBackground 15s infinite alternate;
+	animation: animatedBackground 10s infinite alternate;
 
 }
 
