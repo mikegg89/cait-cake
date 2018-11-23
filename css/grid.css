@@ -49,14 +49,21 @@
   grid-column: span 5;
 }
 
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 0 100%; }
+}
+
 .banner {
   background-image: url(/images/banner.jpg);
-  background-position: center;
+  background-position: 0px 0px;
   background-size: contain;
   padding: 0;
   position: relative;
   overflow: hidden;
   background-color: #94065E;
+	animation: animatedBackground 15s infinite alternate;
+
 }
 
 .banner-img {
