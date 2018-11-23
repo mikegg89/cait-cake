@@ -74,6 +74,10 @@
 
 }
 
+.flyer-logo {
+  background-color: rgb(37, 37, 37);
+}
+
 .flyer-logo-img {
   width: 170px;
 }
