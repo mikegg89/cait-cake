@@ -1,0 +1,92 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  height: 1500px;
+  grid-template-rows: repeat(10, 2fr);
+  grid-template-columns: repeat(8, 2fr);
+  background-color: rgb(37, 37, 37);
+  padding: 2%;
+  color: white;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2em;
+  font-family: 'Bad Script', cursive;
+  background-color: #F876BC;
+  padding: 20px;
+}
+
+.grid-item.xsmall {
+  grid-row: span 1;
+  grid-column: span 5;
+}
+
+.grid-item.small {
+  grid-row: span 2;
+  grid-column: span 5;
+}
+
+.grid-item.medium {
+  grid-row: span 3;
+  grid-column: span 5;
+}
+
+.grid-item.large {
+  grid-row: span 4;
+  grid-column: span 3;
+}
+
+.grid-item.tall {
+  grid-row: span 6;
+  grid-column: span 3;
+}
+
+.grid-item.wide {
+  grid-row: span 4;
+  grid-column: span 5;
+}
+
+.banner {
+  background-image: url(/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.flyer-logo {
+  background-image: url(/images/sweet-treats-logo.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.flyer-label {
+  background-color: #94065E;
+  font-size: 3em;
+  text-align: center;
+  color: rgb(76, 255, 255);
+}
+
+.flyer-pricing {
+  flex-direction: column;
+  color: #94065E;
+  line-height: 50px;
+}
+
+.flyer-pricing-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.flyer-disclaimer {
+  background-color: #94065E;
+  color: rgb(76, 255, 255);
+  text-align: center;
+}
+
+.bottom-banner {
+
+}
