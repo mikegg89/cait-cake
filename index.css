@@ -93,6 +93,7 @@ p, h1, h2 {
 
 .mySlides {
   display: none;
+  width: 100%;
 }
 
 .img-slider {
@@ -138,7 +139,7 @@ p, h1, h2 {
   background-color: rgba(76, 255, 255,0.7);
   text-align: center;
   padding: 50px;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #990661;
 }
 
