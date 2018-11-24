@@ -59,7 +59,7 @@ p, h1, h2 {
 }
 
 .arrow-icon {
-  width: 50px;
+  width: 30px;
   animation: bounce 1.5s infinite alternate;
  -webkit-animation: bounce 1.5s infinite alternate;
 }
