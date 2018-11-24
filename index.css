@@ -10,7 +10,7 @@ body {
 p, h1, h2 {
   font-size: 2em;
   font-weight: bold !important;
-  font-family: 'Bad Script', cursive !important;
+  font-family: 'Bad Script', cursive, bold !important;
 }
 
 #splash {
@@ -28,7 +28,7 @@ p, h1, h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: purple;
+  color: #990661;
   text-shadow: 2px 2px rgb(76, 255, 255);
   line-height: 1.6;
   font-style: bold;
@@ -50,7 +50,8 @@ p, h1, h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: purple;
+  background-color: #990661;
+  background-image: url(/images/pink-glitter.jpeg);
 }
 
 .nav-link {
@@ -83,10 +84,11 @@ p, h1, h2 {
 .about-me_img {
   width: 50%;
   float: left;
+
 }
 
 .caitlynn-img {
-  border-right: 5px solid purple;
+  border-right: 5px solid #990661;
 }
 
 .mySlides {
@@ -125,7 +127,7 @@ p, h1, h2 {
 }
 
 .contact-me-shell {
-  background-image: url("./images/marble-bg.jpg");
+  background-image: url("./images/glitter.jpeg");
   width: 100%;
   margin: auto;
 }
@@ -133,51 +135,53 @@ p, h1, h2 {
 .contact-me {
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(76, 255, 255,0.8);
+  background-color: rgba(76, 255, 255,0.7);
   text-align: center;
   padding: 50px;
   font-size: 1em;
-  color: purple;
+  color: #990661;
 }
 
 .contact-me_input {
   font-size: .8em;
-  color: purple;
+  color: #990661;
   margin: 10px;
   width: 250px;
-  border: 3px solid purple;
+  border: 3px solid #990661;
   border-radius: 2px;
 }
 
 .contact-me_textarea {
   border-radius: 2px;
   font-size: 1em !important;
-  color: purple;
+  color: #990661;
   margin: 10px;
   width: 280px;
-  border: 3px solid purple;
+  border: 3px solid #990661;
 }
 
 
 .contact-me_btn {
   font-size: 1em;
   border-radius: 20px;
-  border: 3px solid purple;
-  color: purple;
+  border: 3px solid #990661;
+  color: rgb(76, 255, 255);
   padding: 3px 10px;
   margin-top: 15px;
+  background-image: url(/images/pink-glitter.jpeg);
 }
 
 .contact-me_btn:hover {
-  background-color: purple;
-  color: white;
-  border: 3px solid white;
+  background-color: #990661;
+  color: #990661;
+  border: 3px solid #990661;
+  background: none;
 }
 
 
 .footer {
-  background: purple;
   text-align: center;
+  background-image: url(/images/pink-glitter.jpeg);
   color: rgba(76, 255, 255, 0.8);
   bottom: 0;
   left: 0;
@@ -195,6 +199,7 @@ p, h1, h2 {
 
 .footer_ul {
   list-style: none;
+  background-color: rgba(58, 2, 46, 0.5);
 }
 
 .footer_li {
