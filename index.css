@@ -147,6 +147,7 @@ p, h2 {
 .contact-me_btn {
   background: none;
   border: none;
+  margin-top: 10px;
 }
 
 .send-btn {
