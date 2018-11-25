@@ -1,0 +1,106 @@
+.about-me-grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(/images/pink-glitter.jpeg);
+  padding: 2%;
+}
+
+.about-me-grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.l-about-me {
+  grid-row: span 4;
+  grid-column: span 1;
+}
+
+.m-about-me {
+  grid-row: span 3;
+  grid-column: span 1;
+  height: 100%;
+  padding-top: 4px;
+}
+
+.s-about-me {
+  grid-row: span 1;
+  grid-column: span 1;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.blank-about-me {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.caitlynn-img {
+  width: 100%;
+  border-radius: 5px !important;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-slider {
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.img-slider_btn {
+  border-radius: 14px;
+  font-size: 2rem;
+  border: 2px solid rgba(76, 255, 255, 0.8) !important;
+  color: rgba(76, 255, 255, 0.8) !important;
+  background-image: url(/images/glitter.jpeg);
+  padding: 5px 15px 5px 15px;
+}
+
+.img-slider_btn:hover {
+  color: rgba(76, 255, 255, 1) !important;
+  border: 2px solid rgba(76, 255, 255, 1) !important;
+}
+
+.img-slider_btn1 {
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.img-slider_btn2 {
+  border-radius: 14px;
+  margin-left: 30px;
+}
+
+
+@media only screen and (max-width: 655px) {
+ .about-me-grid-container {
+   height: 400px;
+ }
+}
+
+@media only screen and (max-width: 485px) {
+  .about-me-grid-container {
+    height: 280px;
+  }
+
+  .img-slider_btn {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .img-slider_btn1 {
+    margin-right: 30px;
+    margin-left: 5px;
+  }
+
+  .img-slider_btn2{
+    margin-left: 10px;
+  }
+}

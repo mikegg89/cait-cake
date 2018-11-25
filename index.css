@@ -43,18 +43,7 @@ p, h2 {
 
 .logo {
   margin-bottom: 10px;
-  width: 130px;
-}
-
-.about-me {
-  position: static;
-  width: 100vw;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #990661;
-  background-image: url(/images/pink-glitter.jpeg);
+  width: 150px;
 }
 
 .nav-link {
@@ -82,33 +71,6 @@ p, h2 {
   to {
     transform: translateY(-15px);
   }
-}
-
-.about-me_img {
-  width: 50%;
-  float: left;
-
-}
-
-.caitlynn-img {
-  border-right: 5px solid rgba(58, 2, 46, 0.0);
-}
-
-.mySlides {
-  display: none;
-  width: 100%;
-}
-
-.img-slider {
-  position: relative;
-  width: 50%;
-  align-items: center;
-  border-right: 5px solid rgba(58, 2, 46, 0.0);
-}
-
-.img-slider_btn {
-  border-radius: 100%;
-  background-color: rgba(255, 105, 180, 0.4) !important;
 }
 
 .prices {
