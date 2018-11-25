@@ -7,7 +7,7 @@ body {
     padding: 0px;
 }
 
-p, h1, h2 {
+p {
   font-size: 2em;
   font-weight: bold !important;
   font-family: 'Bad Script', cursive, bold !important;
@@ -30,17 +30,20 @@ p, h1, h2 {
   align-items: center;
   color: #990661;
   text-shadow: 2px 2px rgb(76, 255, 255);
-  line-height: 1.6;
-  font-style: bold;
   padding: 0 40px;
   text-align: center;
-  font-size: 0.9em;
+}
+
+.splash-about-me {
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-style: bold;
+  padding-bottom: 30px;
 }
 
 .logo {
-  margin-top: -60px;
   margin-bottom: 10px;
-  width: 200px;
+  width: 100px;
 }
 
 .about-me {
