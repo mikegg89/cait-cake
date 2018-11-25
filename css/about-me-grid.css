@@ -55,28 +55,29 @@
   align-items: center;
 }
 
-.img-slider_btn {
-  border-radius: 14px;
-  font-size: 2rem;
-  border: 2px solid rgba(76, 255, 255, 0.8) !important;
-  color: rgba(76, 255, 255, 0.8) !important;
-  background-image: url(/images/glitter.jpeg);
-  padding: 5px 15px 5px 15px;
+.img-slider_btn-img {
+  width: 50px;
+  -webkit-transition: width 0.2s;
+  transition: width 0.2s;
 }
 
-.img-slider_btn:hover {
-  color: rgba(76, 255, 255, 1) !important;
-  border: 2px solid rgba(76, 255, 255, 1) !important;
+.img-slider_btn-img:hover {
+  width: 65px;
+}
+
+.img-slider_btn {
+  background: none;
+  border: none;
+
 }
 
 .img-slider_btn1 {
-  margin-right: 40px;
+  margin-right: 50px;
   margin-left: 10px;
 }
 
 .img-slider_btn2 {
-  border-radius: 14px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 
@@ -100,7 +101,6 @@
 
   .img-slider_btn {
     border-radius: 30%;
-    padding: 20px 30px 20px 30px;
   }
 
   .img-slider_btn1 {
@@ -127,7 +127,6 @@
 
   .img-slider_btn {
     margin-top: 10px;
-    padding: 0px 10px 0px 10px;
   }
 
   .img-slider_btn1 {
@@ -152,7 +151,6 @@
 
   .img-slider_btn {
     margin-top: 10px;
-    padding: 0px 8px 0px 8px;
   }
 
   .img-slider_btn1 {
