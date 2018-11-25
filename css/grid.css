@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 10px;
   height: 1450px;
-  grid-template-rows: repeat(10, 2fr);
+  grid-template-rows: repeat(12, 2fr);
   grid-template-columns: repeat(8, 2fr);
   background-color: rgb(37, 37, 37);
   padding: 2%;
@@ -16,7 +16,6 @@
   font-family: 'Bad Script', cursive;
   font-weight: bold;
   background-color: #F876BC;
-  padding: 20px;
 }
 
 .grid-item.xsmall {
@@ -40,12 +39,12 @@
 }
 
 .grid-item.tall {
-  grid-row: span 6;
+  grid-row: span 12;
   grid-column: span 3;
 }
 
 .grid-item.wide {
-  grid-row: span 4;
+  grid-row: span 10;
   grid-column: span 5;
 }
 
@@ -71,7 +70,6 @@
   max-width: 100%;
   height: auto;
   position: absolute;
-
 }
 
 .flyer-logo {
@@ -80,7 +78,7 @@
 }
 
 .flyer-logo-img {
-  width: 170px;
+  height: 90%;
 }
 
 .flyer-label {
@@ -96,23 +94,24 @@
   line-height: 50px;
 }
 
-.flyer-pricing-img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 95%;
-}
-
-.flyer-disclaimer {
-  background-color: #94065E;
-  color: rgb(76, 255, 255);
-  text-align: center;
-}
-
-.bottom-banner {
+/* .bottom-banner {
   background-image: url(/images/stripes.png);
   background-size: contain;
-}
+} */
 
+
+@media only screen and (max-width: 655px) {
+
+  .grid-container {
+    height: 990px;
+  }
+
+  .grid-item {
+    font-size: 1.4rem;
+    line-height: normal;
+    letter-spacing: 0.2px;
+  }
+}
 
 @media only screen and (max-width: 485px) {
 
