@@ -124,6 +124,14 @@
     margin-bottom: 10px;
   }
 
+  .splash-about-me {
+    font-size: 1.2em;
+  }
+
+  .logo{
+    width: 100px;
+  }
+
   .grid-container {
     height: 850px;
   }
