@@ -191,7 +191,7 @@ p, h2 {
 .merch {
   background-image: url(/images/paper.jpeg);
   height:100%;
-  border-bottom: 0.6em solid black;
+  border-bottom: 0.6em solid rgb(37, 37, 37);
   display: flex;
   align-items: center;
   justify-content: center;
