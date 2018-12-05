@@ -131,24 +131,6 @@ p, h2 {
   border: 3px solid #990661;
 }
 
-
-/* .contact-me_btn {
-  font-size: 1em;
-  border-radius: 20px;
-  border: 3px solid #990661;
-  color: rgb(76, 255, 255);
-  padding: 3px 10px;
-  margin-top: 15px;
-  background-image: url(/images/pink-glitter.jpeg);
-}
-
-.contact-me_btn:hover {
-  background-color: #990661;
-  color: #990661;
-  border: 3px solid #990661;
-  background: none;
-} */
-
 .contact-me_btn {
   background: none;
   border: none;
@@ -204,4 +186,26 @@ p, h2 {
 .recaptcha {
   width: 300px;
   margin: 0 auto;
+}
+
+.merch {
+  background-image: url(/images/paper.jpeg);
+  height:100%;
+  border-bottom: 0.6em solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merch-img {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.merch-img:hover {
+  width: 105%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
