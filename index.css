@@ -12,7 +12,7 @@ h1 {
   font-family: 'Bad Script', cursive, bold !important;
 }
 
-p, h2 {
+p, h2, h3 {
   font-size: 2em;
   font-weight: bold !important;
   font-family: 'Bad Script', cursive, bold !important;
@@ -195,17 +195,20 @@ p, h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .merch-img {
-  width: 100%;
-  height: auto;
-  margin-top: 5px;
+  height: 220px;
   margin-bottom: 5px;
 }
 
 .merch-img:hover {
-  width: 105%;
-  margin-top: 0px;
+  height: 225px;
   margin-bottom: 0px;
+}
+
+.merch-heading {
+  margin: 0px;
+  padding: 0px;
 }
