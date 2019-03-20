@@ -177,15 +177,15 @@ p, h2, h3 {
   }
 
   .contact-me_input_num {
-    width: 250px;
+    width: 250px !important;
   }
 
   .contact-me_input_date {
-    width: 250px;
+    width: 250px !important;
   }
 
   .contact-me_input_option {
-    width: 250px;
+    width: 250px !important;
   }
 }
 
