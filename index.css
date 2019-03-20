@@ -132,6 +132,10 @@ p, h2, h3 {
   width: 200px;
 }
 
+.contact-me_input_option {
+  width: 160px;
+}
+
 .contact-me_textarea {
   border-radius: 2px;
   font-size: 1em !important;
