@@ -145,6 +145,11 @@ p, h2, h3 {
   border: 3px solid #990661;
 }
 
+.label-textarea {
+  position: relative;
+  padding-top: 20px ;
+}
+
 .contact-me_btn {
   background: none;
   border: none;
@@ -159,6 +164,18 @@ p, h2, h3 {
   width: 95px;
 }
 
+.hidden {
+  visibility: hidden;
+  width: 0px;
+}
+
+.input-img-btn {
+  border: 3px solid #990661;
+  padding: 0px 0px 0px 10px;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
 
 .footer {
   text-align: center;
