@@ -175,6 +175,18 @@ p, h2, h3 {
     font-size: 0.9em;
     letter-spacing: 1px;
   }
+
+  .contact-me_input_num {
+    width: 250px;
+  }
+
+  .contact-me_input_date {
+    width: 250px;
+  }
+
+  .contact-me_input_option {
+    width: 250px;
+  }
 }
 
 

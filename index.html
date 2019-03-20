@@ -211,11 +211,11 @@
               <label>Event Date <input required class="contact-me_input contact-me_input_date" type="date" name="date" /></label>
             </p>
             <p>
-              <label>Head Count <input required class="contact-me_input contact-me_input_num" type="number" name="number" /></label>
+              <label>Head Count <input required class="contact-me_input contact-me_input_num" type="number" name="head count"  min="1" /></label>
             </p>
             <p>
               <label for="flavor-select">Choose a Flavor </label>
-              <select required class="contact-me_input contact-me_input_option" id="flavor-select">
+              <select required class="contact-me_input contact-me_input_option" id="flavor-select" name="flavor">
                   <option value="Chocolate">Chocolate</option>
                   <option value="Lemon">Lemon</option>
                   <option value="Strawberry">Strawberry</option>
@@ -225,7 +225,7 @@
               </select>
             </p>
             <p>
-              <label>Theme <input class="contact-me_input" type="text" name="text" /></label>
+              <label>Theme <input class="contact-me_input" type="text" name="theme" /></label>
             </p>
             <p>
               <label><p>Message</p>
