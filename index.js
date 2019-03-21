@@ -19,3 +19,17 @@ function showDivs(n) {
 }
 
 setInterval(function(){ plusDivs(1); }, 5000);
+
+
+function readURL(input) {
+       if (input.files && input.files[0]) {
+           var reader = new FileReader();
+
+           reader.onload = function (e) {
+               $('#example-image')
+                   .attr('src', e.target.result);
+           };
+
+           reader.readAsDataURL(input.files[0]);
+       }
+   }

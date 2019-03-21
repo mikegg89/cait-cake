@@ -233,8 +233,13 @@
               </label>
             </p>
             <p>
-              <label class="input-img-btn" for="example-img">Example Image </label><input class="hidden" id="example-img" type="file" name="example" accept="image/*">
+              <label class="input-img-btn" for="example-img">
+                Example Image
+                <img class="example-image" id="example-image" src="./images/dummy-img.png" alt="your image" />
+              </label>
+              <input class="hidden" onchange="readURL(this);" id="example-img" type="file" name="example" accept="image/*">
             </p>
+
             <div class="recaptcha" data-netlify-recaptcha></div>
             <p>
               <button class="contact-me_btn" type="submit"> <img class="send-btn" src="./images/send-btn.png" alt="send button"> </button>
