@@ -211,6 +211,14 @@ input[type=file] {
   .contact-me_input_option {
     width: 250px !important;
   }
+
+  .input-img-btn {
+    margin-left: 5px;
+  }
+
+  .example-image {
+    margin-left: 30px;
+  }
 }
 
 
