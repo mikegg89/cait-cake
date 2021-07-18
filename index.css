@@ -4,7 +4,9 @@
 }
 
 body {
+  margin: 0px;
   padding: 0px;
+  width: 100%;
 }
 
 h1 {
@@ -22,7 +24,6 @@ p, h2, h3 {
   background-image: url(./images/birthday-bg.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
 }
 
 .splash_text{
