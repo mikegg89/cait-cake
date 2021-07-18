@@ -203,55 +203,60 @@
 
 <!-- Contact me form -->
       <div class="contact-me-shell">
+        <div class="closed-banner">
+          <h1>We are Temporarily not taking orders until further notice, sorry for the inconvenience, thank you.</h1>
+        </div>
         <div class="contact-me" id="Contact-me">
-          <h2 class="merch-heading">Request a Quote</h2>
-          <form autocomplete="on" name="contact" netlify>
-            <p>
-              <label>Name <input required class="contact-me_input" type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input required class="contact-me_input" type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Phone Number <input required class="contact-me_input" type="phone" name="phone" /></label>
-            </p>
-            <p>
-              <label>Event Date <input required class="contact-me_input contact-me_input_date" type="date" name="date" /></label>
-            </p>
-            <p>
-              <label>Head Count <input required class="contact-me_input contact-me_input_num" type="number" name="head count"  min="1" /></label>
-            </p>
-            <p>
-              <label for="flavor-select">Choose a Flavor </label>
-              <select required class="contact-me_input contact-me_input_option" id="flavor-select" name="flavor">
-                  <option value="Chocolate">Chocolate</option>
-                  <option value="Lemon">Lemon</option>
-                  <option value="Strawberry">Strawberry</option>
-                  <option value="Vanila">Vanila</option>
-                  <option value="White">White</option>
-                  <option value="Other">Other</option>
-              </select>
-            </p>
-            <p>
-              <label>Theme <input class="contact-me_input" type="text" name="theme" /></label>
-            </p>
-            <p>
-              <label class="label-textarea"><p>Message</p>
-                <textarea autocomplete="off" required class="contact-me_textarea" name="message" rows="5" cols="30"></textarea>
-              </label>
-            </p>
-            <p>
-              <label class="input-img-btn" for="example-img">
-                Example Image
-                <img class="example-image" id="example-image" src="./images/dummy-img.png" alt="your image" />
-              </label>
-              <input class="hidden" onchange="readURL(this);" id="example-img" type="file" name="example" accept="image/*">
-            </p>
 
-            <div class="recaptcha" data-netlify-recaptcha></div>
-            <p>
-              <button class="contact-me_btn" type="submit"> <img class="send-btn" src="./images/send-btn.png" alt="send button"> </button>
-            </p>
+          <form autocomplete="on" name="contact" netlify>
+            <fieldset class="reqForm" disabled="disabled">
+              <p>
+                <label>Name <input required class="contact-me_input" type="text" name="name" /></label>
+              </p>
+              <p>
+                <label>Email <input required class="contact-me_input" type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Phone Number <input required class="contact-me_input" type="phone" name="phone" /></label>
+              </p>
+              <p>
+                <label>Event Date <input required class="contact-me_input contact-me_input_date" type="date" name="date" /></label>
+              </p>
+              <p>
+                <label>Head Count <input required class="contact-me_input contact-me_input_num" type="number" name="head count"  min="1" /></label>
+              </p>
+              <p>
+                <label for="flavor-select">Choose a Flavor </label>
+                <select required class="contact-me_input contact-me_input_option" id="flavor-select" name="flavor">
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Vanila">Vanila</option>
+                    <option value="White">White</option>
+                    <option value="Other">Other</option>
+                </select>
+              </p>
+              <p>
+                <label>Theme <input class="contact-me_input" type="text" name="theme" /></label>
+              </p>
+              <p>
+                <label class="label-textarea"><p>Message</p>
+                  <textarea autocomplete="off" required class="contact-me_textarea" name="message" rows="5" cols="30"></textarea>
+                </label>
+              </p>
+              <p>
+                <label class="input-img-btn" for="example-img">
+                  Example Image
+                  <img class="example-image" id="example-image" src="./images/dummy-img.png" alt="your image" />
+                </label>
+                <input class="hidden" onchange="readURL(this);" id="example-img" type="file" name="example" accept="image/*">
+              </p>
+  
+              <div class="recaptcha" data-netlify-recaptcha></div>
+              <p>
+                <button class="contact-me_btn" type="submit"> <img class="send-btn" src="./images/send-btn.png" alt="send button"> </button>
+              </p>
+            </fieldset> 
           </form>
         </div>
       </div>
