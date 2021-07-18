@@ -99,13 +99,11 @@ p, h2, h3 {
 
 .contact-me-shell {
   background-image: url("./images/glitter.jpeg");
-  width: 100%;
   margin: auto;
   position: relative;
 }
 
 .contact-me {
-  width: 100%;
   margin: 0 auto;
   background-color: rgba(76, 255, 255,0.7);
   text-align: center;
